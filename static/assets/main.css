@@ -84,7 +84,7 @@
 
 	body {
 		height: 100%;
-		background-color: #ffffff;
+		background-color: #acdaec;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../static/bg.jpg");
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../static/bg.jpg");
 		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../static/bg.jpg");
@@ -105,7 +105,7 @@
 			height: inherit;
 			opacity: 0;
 			z-index: 1;
-			background-color: #ffffff;
+			background-color: #c53e3e;
 			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
 			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
 			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
@@ -126,7 +126,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #414f57;
+		color: #181c1e;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
@@ -169,7 +169,7 @@
 		}
 
 		a:hover {
-			color: #ff7496;
+			color: #250bcf;
 		}
 
 	strong, b {
@@ -182,10 +182,12 @@
 
 	p {
 		margin: 0 0 1.5em 0;
+		font-weight: 1000;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #313f47;
+		color: solid black;
+		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.75em 0;
 	}
@@ -523,7 +525,7 @@
 					width: 3.75em;
 					height: 3.75em;
 					border-radius: 100%;
-					border: solid 1px #c8cccf;
+					border: solid 1px #94a3af;
 					line-height: 3.75em;
 					overflow: hidden;
 					text-align: center;
@@ -541,7 +543,6 @@
 					}
 
 					ul.icons li a:before {
-						color: #ffffff;
 						text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;
 					}
 
@@ -705,7 +706,7 @@
 		max-width: 100%;
 		min-width: 27em;
 		padding: 4.5em 3em 3em 3em ;
-		background: #ffffff;
+		background: #a3d1e5;
 		border-radius: 4px;
 		cursor: default;
 		opacity: 0.95;
